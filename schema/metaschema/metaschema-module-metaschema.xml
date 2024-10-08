@@ -799,7 +799,7 @@
         <define-flag name="namespace" as-type="uri" default="http://csrc.nist.gov/ns/oscal/metaschema/1.0">
             <formal-name>Property Namespace</formal-name>
         </define-flag>
-        <define-flag name="value" as-type="token" required="yes">
+        <define-flag name="value" as-type="string" required="yes">
             <formal-name>Property Value</formal-name>
         </define-flag>
     </define-assembly>

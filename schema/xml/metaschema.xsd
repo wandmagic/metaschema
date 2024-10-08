@@ -164,7 +164,7 @@
     <xs:attribute name="namespace" type="URIDatatype"
       default="http://csrc.nist.gov/ns/oscal/metaschema/1.0"/>
     <xs:attribute name="name" type="TokenDatatype" use="required"/>
-    <xs:attribute name="value" type="TokenDatatype" use="required"/>
+    <xs:attribute name="value" type="StringDatatype" use="required"/>
   </xs:complexType>
 
   <xs:simpleType name="ModelNameType">
