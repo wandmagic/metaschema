@@ -11,11 +11,23 @@
     <xs:element name="metaschema-meta-constraints">
         <xs:complexType>
             <xs:sequence>
+                <xs:element name="import" type="ImportType" minOccurs="0" maxOccurs="unbounded"/>
                 <xs:element name="namespace-binding" type="NamespaceBindingType" minOccurs="0" maxOccurs="unbounded"/> 
                 <xs:element name="context" type="ModelContextType" maxOccurs="unbounded"/>
             </xs:sequence>
         </xs:complexType>
     </xs:element>
+
+    <xs:complexType name="ImportType">
+    	<xs:annotation>
+    		<xs:documentation>Declares a set of Metaschema constraints from an out-of-line resource to import, supporting composition of constraint sets.</xs:documentation>
+    	</xs:annotation>
+    	<xs:attribute name="href" type="URIReferenceDatatype" use="required">
+    		<xs:annotation>
+    			<xs:documentation>A relative or absolute URI for retrieving an out-of-line Metaschema constraint definition.</xs:documentation>
+    		</xs:annotation>
+    	</xs:attribute>
+    </xs:complexType>
 
     <xs:complexType name="MetaschemaMetapathReferenceType">
         <xs:attribute name="target" type="MetaschemaPathStringType" use="required"/>
