@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<parent xmlns="http://csrc.nist.gov/ns/metaschema/unit-test/allowed-values"
+<allowed-values-parent xmlns="http://csrc.nist.gov/ns/metaschema/unit-test/allowed-values"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://csrc.nist.gov/ns/metaschema/unit-test/allowed-values target/allowed-values-basic_metaschema-xmlschema.xsd" odd-flag="12">
     <field-date>2022-06-22</field-date>
@@ -7,4 +7,4 @@
     <child even-flag="4X">
         <field-date>2020-01-11</field-date>
     </child>
-</parent>
+</allowed-values-parent>

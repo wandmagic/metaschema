@@ -11,7 +11,7 @@
    <define-assembly name="parent">
       <formal-name>parent</formal-name>
       <description>parent assembly</description>
-      <root-name>parent</root-name>
+      <root-name>uri-parent</root-name>
       <define-flag name="uri-flag" as-type="uri" required="yes">
          <formal-name>Universal Resource Identifier Flag</formal-name>
          <description>Per W3C</description>

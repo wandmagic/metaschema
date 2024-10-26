@@ -1,5 +1,5 @@
 {
-  "parent": {
+  "collapsible-parent": {
     "props": [
       {
         "name": "name1",

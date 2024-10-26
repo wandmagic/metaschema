@@ -1,5 +1,5 @@
 {
-  "parent": {
+  "uri-parent": {
     "uri-flag": "http://pages.nist.gov/OSCAL",
     "uri-reference-flag": "OSCAL",
     "uri-fields": [

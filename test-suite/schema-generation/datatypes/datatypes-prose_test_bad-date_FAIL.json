@@ -1,6 +1,6 @@
 {
     "$schema": "datatypes-prose_json-schema.json",
-    "parent": {
+    "prose-parent": {
         "date": "2019-06-31",
         "plaintext": "Some *plain* text",
         "richtext": "Some *rich* text",

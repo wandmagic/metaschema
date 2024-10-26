@@ -11,7 +11,7 @@
    <define-assembly name="parent">
       <formal-name>parent</formal-name>
       <description>parent assembly</description>
-      <root-name>parent</root-name>
+      <root-name>collapsible-no-op-parent</root-name>
       <model>
          <field ref="prop" min-occurs="1" max-occurs="unbounded">
             <group-as name="props" in-json="SINGLETON_OR_ARRAY"/>

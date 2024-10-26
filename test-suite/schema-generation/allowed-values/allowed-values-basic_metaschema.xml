@@ -11,7 +11,7 @@
    <define-assembly name="parent">
       <formal-name>parent</formal-name>
       <description>parent assembly</description>
-      <root-name>parent</root-name>
+      <root-name>allowed-values-parent</root-name>
       <define-flag name="odd-flag" as-type="positive-integer" required="yes">
          <formal-name>Small odd flag</formal-name>
          <description>Odd integers from 1 to 11 inclusive</description>

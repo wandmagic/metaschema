@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<parent xmlns="http://csrc.nist.gov/ns/metaschema/unit-test/datatypes-dateTime"
+<date-parent xmlns="http://csrc.nist.gov/ns/metaschema/unit-test/datatypes-date"
     flag-date="2020-06-23Z">
     <field-date>2020-06-23Z</field-date>
     <field-date>2020-06-23-04:00</field-date>
@@ -8,4 +8,4 @@
      <child>
         <field-date>2020-06-23-04:00</field-date>
     </child>
-</parent>
+</date-parent>

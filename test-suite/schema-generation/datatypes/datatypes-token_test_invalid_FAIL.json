@@ -1,6 +1,6 @@
 {
-    "$schema": "../../../../../metaschema-schema-generator/test-schemagen/datatypes/datatypes-token_schema.json",
-    "parent": {
+    "token-parent": {
+        "token-flag": "t7b5d9713",
         "token-field": [ ".🚀🛑" ]
     }
 }

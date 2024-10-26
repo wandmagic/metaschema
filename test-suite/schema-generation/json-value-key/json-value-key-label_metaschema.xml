@@ -11,7 +11,7 @@
    <define-assembly name="parent">
       <formal-name>parent</formal-name>
       <description>parent assembly</description>
-      <root-name>parent</root-name>
+      <root-name>json-value-key-label-parent</root-name>
       <model>
          <field ref="link" max-occurs="unbounded">
             <group-as name="links"/>

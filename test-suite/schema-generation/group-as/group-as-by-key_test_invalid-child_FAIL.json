@@ -1,5 +1,5 @@
 {
-  "parent": {
+  "group-as-by-key-parent": {
     "props": {
       "id1": {"STRVALUE": "test1"},
       "id2": "test2"

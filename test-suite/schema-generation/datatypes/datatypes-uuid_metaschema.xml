@@ -6,12 +6,12 @@
    <schema-name>Metaschema Unit Test: UUID Datatype</schema-name>
    <schema-version>1.0-milestone2</schema-version>
    <short-name>metaschema-datatypes-uuid</short-name>
-   <namespace>http://csrc.nist.gov/ns/metaschema/unit-test/datatypes-uri</namespace>
-   <json-base-uri>http://csrc.nist.gov/ns/metaschema/unit-test/datatypes-uri</json-base-uri>
+   <namespace>http://csrc.nist.gov/ns/metaschema/unit-test/datatypes-uuid</namespace>
+   <json-base-uri>http://csrc.nist.gov/ns/metaschema/unit-test/datatypes-uuid</json-base-uri>
    <define-assembly name="parent">
       <formal-name>parent</formal-name>
       <description>parent assembly</description>
-      <root-name>parent</root-name>
+      <root-name>uuid-parent</root-name>
       <define-flag name="uuid-flag" as-type="uuid" required="yes">
          <formal-name>Universally Unique Identifier Flag</formal-name>
          <description>A version 4 UUID per RFC 4122.</description>

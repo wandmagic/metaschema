@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<parent xmlns="http://csrc.nist.gov/ns/metaschema/unit-test/allowed-values" odd-flag="11">
+<allowed-values-parent xmlns="http://csrc.nist.gov/ns/metaschema/unit-test/allowed-values" odd-flag="11">
     <field-date>2020-01-01</field-date>
     <field-date>2020-02-29</field-date>
     <field-date>2020-07-04</field-date>
@@ -12,4 +12,4 @@
     <child even-flag="2">
         <field-date>2020-07-04</field-date>
     </child>
-</parent>
+</allowed-values-parent>

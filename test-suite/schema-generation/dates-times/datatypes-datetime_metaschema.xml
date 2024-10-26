@@ -11,7 +11,7 @@
    <define-assembly name="parent">
       <formal-name>parent</formal-name>
       <description>parent assembly</description>
-      <root-name>parent</root-name>
+      <root-name>date-time-parent</root-name>
       <define-flag name="flag-datetime"
                    as-type="date-time-with-timezone"
                    required="yes">

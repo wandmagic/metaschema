@@ -1,5 +1,5 @@
 {
-  "parent": {
+  "group-as-by-key-parent": {
     "props": {
       "id3": "test3",
       "id2": "some text",
