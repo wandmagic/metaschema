@@ -955,7 +955,7 @@
             <assembly ref="property" max-occurs="unbounded">
                 <group-as name="props" in-json="ARRAY"/>
             </assembly>
-            <field ref="expect-constraint-message"/>
+            <field ref="constraint-message"/>
             <field ref="remarks"/>
         </model>
     </define-assembly>
@@ -1124,13 +1124,13 @@
             <assembly ref="property" max-occurs="unbounded">
                 <group-as name="props" in-json="ARRAY"/>
             </assembly>
-            <field ref="expect-constraint-message"/>
+            <field ref="constraint-message"/>
             <field ref="remarks"/>
         </model>
     </define-assembly>
     
-    <define-field name="expect-constraint-message">
-        <formal-name>Expect Condition Violation Message</formal-name>
+    <define-field name="constraint-message">
+        <formal-name>Constraint Condition Violation Message</formal-name>
         <use-name>message</use-name>
     </define-field>
 
