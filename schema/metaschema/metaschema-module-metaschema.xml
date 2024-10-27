@@ -936,6 +936,7 @@
             <field ref="constraint-value-enum" min-occurs="1" max-occurs="unbounded">
                 <group-as name="enums" in-json="ARRAY"/>
             </field>
+            <field ref="constraint-message"/>
             <field ref="remarks"/>
         </model>
     </define-assembly>
@@ -955,7 +956,7 @@
             <assembly ref="property" max-occurs="unbounded">
                 <group-as name="props" in-json="ARRAY"/>
             </assembly>
-            <field ref="expect-constraint-message"/>
+            <field ref="constraint-message"/>
             <field ref="remarks"/>
         </model>
     </define-assembly>
@@ -977,6 +978,7 @@
                 <use-name>key-field</use-name>
                 <group-as name="key-fields" in-json="ARRAY"/>
             </assembly>
+            <field ref="constraint-message"/>
             <field ref="remarks"/>
         </model>        
     </define-assembly>
@@ -1042,6 +1044,7 @@
             <field ref="constraint-value-enum" min-occurs="1" max-occurs="unbounded">
                 <group-as name="enums" in-json="ARRAY"/>
             </field>
+            <field ref="constraint-message"/>
             <field ref="remarks"/>
         </model>
     </define-assembly>
@@ -1099,6 +1102,7 @@
             <assembly ref="property" max-occurs="unbounded">
                 <group-as name="props" in-json="ARRAY"/>
             </assembly>
+            <field ref="constraint-message"/>
             <field ref="remarks"/>
         </model>
     </define-assembly>
@@ -1124,13 +1128,13 @@
             <assembly ref="property" max-occurs="unbounded">
                 <group-as name="props" in-json="ARRAY"/>
             </assembly>
-            <field ref="expect-constraint-message"/>
+            <field ref="constraint-message"/>
             <field ref="remarks"/>
         </model>
     </define-assembly>
     
-    <define-field name="expect-constraint-message">
-        <formal-name>Expect Condition Violation Message</formal-name>
+    <define-field name="constraint-message">
+        <formal-name>Constraint Condition Violation Message</formal-name>
         <use-name>message</use-name>
     </define-field>
 
@@ -1152,6 +1156,7 @@
                 <use-name>key-field</use-name>
                 <group-as name="key-fields" in-json="ARRAY"/>
             </assembly>
+            <field ref="constraint-message"/>
             <field ref="remarks"/>
         </model>        
     </define-assembly>
@@ -1191,6 +1196,7 @@
                 <use-name>key-field</use-name>
                 <group-as name="key-fields" in-json="ARRAY"/>
             </assembly>
+            <field ref="constraint-message"/>
             <field ref="remarks"/>
         </model>        
     </define-assembly>
@@ -1213,6 +1219,7 @@
                 <use-name>key-field</use-name>
                 <group-as name="key-fields" in-json="ARRAY"/>
             </assembly>
+            <field ref="constraint-message"/>
             <field ref="remarks"/>
         </model>        
     </define-assembly>
@@ -1311,6 +1318,7 @@
                             </model>
                         </define-assembly>
                     </choice-group>
+                    <field ref="constraint-message"/>
                     <field ref="remarks"/>
                 </model>
             </define-assembly>
