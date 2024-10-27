@@ -999,6 +999,7 @@
             <assembly ref="property" max-occurs="unbounded">
                 <group-as name="props" in-json="ARRAY"/>
             </assembly>
+            <field ref="constraint-message"/>
             <field ref="remarks"/>
         </model>
     </define-assembly>
@@ -1238,6 +1239,7 @@
             <assembly ref="property" max-occurs="unbounded">
                 <group-as name="props" in-json="ARRAY"/>
             </assembly>
+            <field ref="constraint-message"/>
             <field ref="remarks"/>
         </model>        
     </define-assembly>
