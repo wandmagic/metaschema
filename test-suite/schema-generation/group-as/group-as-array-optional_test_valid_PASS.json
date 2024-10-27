@@ -1,5 +1,5 @@
 {
-	"parent": {
+	"group-as-array-optional-parent": {
 	   "props": [
 	      	"test1"
 	   ]

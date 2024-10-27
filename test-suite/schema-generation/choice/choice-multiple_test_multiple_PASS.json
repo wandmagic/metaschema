@@ -1,5 +1,5 @@
 {
-  "parent": {
+  "choice-parent": {
     "children": [
       {
         "non-choice": "1-1 and 2-1",
