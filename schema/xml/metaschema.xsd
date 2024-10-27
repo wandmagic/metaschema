@@ -918,6 +918,7 @@
       <xs:extension base="ConstraintType">
         <xs:sequence>
           <xs:element name="enum" type="AllowedValueType" minOccurs="1" maxOccurs="unbounded"/>
+          <xs:element name="message" type="StringDatatype" minOccurs="0"/>
           <xs:group ref="ConstraintContentsGroup"/>
         </xs:sequence>
         <xs:attribute name="allow-other" type="YesNoType" default="no">
@@ -981,6 +982,7 @@
     <xs:complexContent>
       <xs:extension base="ConstraintType">
         <xs:sequence>
+          <xs:element name="message" type="StringDatatype" minOccurs="0"/>
           <xs:group ref="ConstraintContentsGroup"/>
         </xs:sequence>
         <!-- TODO: need a rule to enforce that either a regex or a datatype is used; or make these element children and use a choice -->
@@ -1057,6 +1059,7 @@
               </xs:complexContent>
             </xs:complexType>
           </xs:element>
+          <xs:element name="message" type="StringDatatype" minOccurs="0"/>
           <xs:group ref="ConstraintContentsGroup"/>
         </xs:sequence>
       </xs:extension>
@@ -1157,6 +1160,7 @@
     <xs:complexContent>
       <xs:extension base="ConstraintType">
         <xs:sequence>
+          <xs:element name="message" type="StringDatatype" minOccurs="0"/>
           <xs:group ref="ConstraintContentsGroup"/>
         </xs:sequence>
         <xs:attribute name="target" type="MetaschemaPathType" use="required">
