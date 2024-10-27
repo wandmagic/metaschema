@@ -11,7 +11,7 @@
    <define-assembly name="parent">
       <formal-name>parent</formal-name>
       <description>parent assembly</description>
-      <root-name>group-ass-array-bounded-parent</root-name>
+      <root-name>group-as-array-bounded-parent</root-name>
       <model>
          <field ref="prop" min-occurs="2" max-occurs="3">
             <group-as name="props" in-json="ARRAY"/>
