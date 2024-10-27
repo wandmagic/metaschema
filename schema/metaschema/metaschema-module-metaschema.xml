@@ -936,7 +936,6 @@
             <field ref="constraint-value-enum" min-occurs="1" max-occurs="unbounded">
                 <group-as name="enums" in-json="ARRAY"/>
             </field>
-            <field ref="constraint-message"/>
             <field ref="remarks"/>
         </model>
     </define-assembly>
@@ -1045,7 +1044,6 @@
             <field ref="constraint-value-enum" min-occurs="1" max-occurs="unbounded">
                 <group-as name="enums" in-json="ARRAY"/>
             </field>
-            <field ref="constraint-message"/>
             <field ref="remarks"/>
         </model>
     </define-assembly>
