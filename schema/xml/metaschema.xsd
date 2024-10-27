@@ -918,7 +918,6 @@
       <xs:extension base="ConstraintType">
         <xs:sequence>
           <xs:element name="enum" type="AllowedValueType" minOccurs="1" maxOccurs="unbounded"/>
-          <xs:element name="message" type="StringDatatype" minOccurs="0"/>
           <xs:group ref="ConstraintContentsGroup"/>
         </xs:sequence>
         <xs:attribute name="allow-other" type="YesNoType" default="no">
