@@ -30,17 +30,17 @@ jobs:
       issues: write
     steps:
     - name: Checkout Latest
-      uses: actions/checkout@9bb56186c3b09b4f86b1c65136769dd318469633
+      uses: actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332
       with:
         fetch-depth: 0 # this ensures that the tag and commit history are available
     - name: Checkout git ref of published website content
-      uses: actions/checkout@9bb56186c3b09b4f86b1c65136769dd318469633
+      uses: actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332
       with:
         ref: ${{ inputs.site_git_ref }}
         path: ${{ inputs.site_git_ref_path }}
     - name: Check website HTML content links
       id: linkchecker
-      uses: lycheeverse/lychee-action@c053181aa0c3d17606addfe97a9075a32723548a
+      uses: lycheeverse/lychee-action@2b973e86fc7b1f6b36a93795fe2c9c6ae1118621
       with:
         args: --exclude-file .github/workflows/config/.lycheeignore --verbose --no-progress --accept 200,206,429 './${{ inputs.site_git_ref_path }}/**/*.html' --exclude-mail
         fail: true
